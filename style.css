@@ -6,20 +6,55 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.header, #section-one, .footer {
-    /* set colors for header, footer, and section one */
-    background-color: #1F2937;
-    color: #F9FAF8;
-}
-
 .header a {
     /* remove default link styling */
     text-decoration: none;
     color: #E5E7EB;
 }
 
+ul {
+    /* remove default list styling */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.header, #section-one, .footer {
+    /* set colors for header, footer, and section one */
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
 #section-three {
     /* set colors for section three */
     background-color: #E5E7EB;
     color: #1F2937;
+}
+
+body {
+    /* align sections vertically */
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* use full viewport height */
+}
+
+#section-one, #section-two, #section-three, #section-four {
+    flex: 1;
+}
+
+.header {
+    margin-bottom: auto; /* stick to top */
+    /* align header content horizontally */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    margin-top: auto; /* stick to bottom */
+    text-align: center;
 }
