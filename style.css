@@ -2,5 +2,24 @@
 /* add Roboto font */
 
 * {
+    /* set all text to Roboto */
     font-family: 'Roboto', sans-serif;
+}
+
+.header, #section-one, .footer {
+    /* set colors for header, footer, and section one */
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header a {
+    /* remove default link styling */
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+#section-three {
+    /* set colors for section three */
+    background-color: #E5E7EB;
+    color: #1F2937;
 }
