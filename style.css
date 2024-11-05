@@ -4,6 +4,7 @@
 * {
     /* set all text to Roboto */
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 .header a {
@@ -17,10 +18,19 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-
+    size: 24px;
+    /* align links horizontally */
     display: flex;
     gap: 16px;
     align-items: center;
+}
+
+button {
+    /* set button styling */
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 30px;
+    border-radius: 10px;
 }
 
 .header, #section-one, .footer {
@@ -52,9 +62,52 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 100px;
+}
+
+.header p {
+    font-weight: 700;
+    color: #F9FAF8;
+    size: 24px;
 }
 
 .footer {
     margin-top: auto; /* stick to bottom */
     text-align: center;
+}
+
+#section-one {
+    display: flex;
+    padding: 60px 100px;
+    gap: 60px;
+    justify-content: space-evenly;
+}
+
+#section-one .image {
+    /* set up placeholder image */
+    background-color: gray;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+h1 {
+    size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+#section-one p {
+    size: 18px;
+    color: #E5E7EB;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+#section-one button {
+    margin-top: 8px;
+    border: none;
+    font-weight: 700;
 }
