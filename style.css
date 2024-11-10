@@ -161,6 +161,7 @@ h2 {
 #section-three {
     background-color: #E5E7EB;
     padding: 60px 200px;
+    /* align section content vertically */
     display: flex;
     flex-direction: column;
 }
@@ -176,4 +177,36 @@ h2 {
     font-weight: 700;
     align-self: flex-end;
     padding-right: 60px;
+}
+
+/* SECTION FOUR STYLES */
+
+#section-four {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 30px 100px;
+    margin: 60px 200px;
+}
+
+#section-four .conatiner {
+    margin-right: auto;
+}
+
+#section-four button {
+    margin-top: 8px;
+    border: 3px solid #F9FAF8;
+    font-weight: 700;
+    margin-left: auto; /* stick button to right side */
+}
+
+h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#section-four p {
+    margin: 0;
+    font-size: 18px;
 }
