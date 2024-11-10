@@ -160,7 +160,7 @@ h2 {
 
 #section-three {
     background-color: #E5E7EB;
-    padding: 60px 200px;
+    padding: 60px 300px;
     /* align section content vertically */
     display: flex;
     flex-direction: column;
@@ -188,6 +188,7 @@ h2 {
     justify-content: center;
     padding: 30px 100px;
     margin: 60px 200px;
+    border-radius: 10px;
 }
 
 #section-four .conatiner {
